@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" class="app">
+<head>  
+  <meta charset="utf-8" />
+  <title>JS TEST</title>
+</head>
+<body class="">
+  <button class="mybutton">Run Test</button>
+
+  <script type="text/javascript" src="../proxy.min.js"></script>
+  
+  <!-- TEST FILES -->
+  <script type="text/javascript" src="test_utils.js"></script>
+  <script type="text/javascript" src="test_math.js"></script>
+  <script type="text/javascript" src="test_keys.js"></script>
+  <script type="text/javascript" src="test_capsule.js"></script>
+  <script type="text/javascript" src="run.js"></script>
+  <script>
+    document.querySelector('.mybutton').addEventListener('click', function(){
+        call_test();
+    });
+  </script>
+</body>
+</html>
+

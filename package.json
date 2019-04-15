@@ -1,0 +1,18 @@
+{
+  "name": "kmschain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gegham",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-jshint": "^2.0.0"
+  },
+  "dependencies": {
+    "grunt-minified": "0.0.6"
+  }
+}
